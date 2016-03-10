@@ -1,7 +1,7 @@
+#!/usr/bin/env python
+
 import re
 p = re.compile('[a-z]+')
-
-
 
 print(p.match('ababababab').span())
 

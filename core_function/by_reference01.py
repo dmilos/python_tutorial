@@ -1,9 +1,9 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Function definition is here
 def changeme( mylist ):
     "This changes a passed list into this function"
-    mylist.append([1,2,3,4]);
+    mylist = [1,2,3,4]; # This would assig new reference in mylist
     print "Values inside the function: ", mylist
     return
 

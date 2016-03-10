@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 class FooType(object):
     def __init__(self, id):
         self.id = id
@@ -6,12 +8,8 @@ class FooType(object):
     def __del__(self):
         print self.id, 'died'
 
-def make_foo():
-    print 'Making...'
-    ft = FooType(1)
-    print 'Returning...'
-    return ft
+print 'Make instance...'
 
-print 'Calling...'
-ft = make_foo()
+ft = FooType(1)
+
 print 'End...'

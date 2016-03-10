@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 a = {'jack', 'sjoerd'}
 b = {'sjoerd', 'mick'}
 

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Function definition is here
 def changeme( mylist ):
@@ -9,6 +9,6 @@ def changeme( mylist ):
 
 # Now you can call changeme function
 mylist = [10,20,30];
-print "Values before: ", mylist
+print "Values before call: ", mylist
 changeme( mylist );
 print "Values outside the function: ", mylist
